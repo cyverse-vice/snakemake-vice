@@ -1,6 +1,3 @@
 # snakemake-vice
-vice image with jupyter and snakemake
+jupyterlab vice image with snakemake-minmal
 
-```
-docker pull sateeshperi/snakemake-vice
-```
