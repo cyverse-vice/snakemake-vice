@@ -6,7 +6,7 @@ USER root
 COPY jupyter_notebook_config.json /opt/conda/etc/jupyter/jupyter_notebook_config.json
 # Add project files
 COPY environment.yml /home/jovyan/environment.yml
-COPY Snakefile /home/jovyan/Snakefile
+COPY Snakefile_mrsa /home/jovyan/Snakefile_mrsa
 COPY config.yml /home/jovyan/config.yml
 COPY code /home/jovyan/code
 
